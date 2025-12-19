@@ -189,3 +189,13 @@ button:active {
     transform: translateY(0);
   }
 }
+.seo-text {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #9ca3af;
+  text-align: center;
+  line-height: 1.6;
+}
+ .seo-text {
+  animation: fadeUp 0.6s ease-out;
+}
