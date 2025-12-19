@@ -1,73 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Converter</title>
-
-  <!-- CSS link -->
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
-
   <div class="container">
-   <h1>Image Converter</h1>
-    <p>Upload image and convert image to exact KB / MB</p>
+    <h1>Image Converter</h1>
+    <p>Upload image and compress image</p>
 
     <!-- Image Upload -->
     <input type="file" id="imageInput" accept="image/*">
 
     <!-- Target Size -->
     <div class="size-box">
-      <input type="number" id="targetSize" placeholder="Enter size">
+      <input type="number" id="targetSize" placeholder="Target size">
       <select id="sizeUnit">
         <option value="KB">KB</option>
         <option value="MB">MB</option>
       </select>
     </div>
 
-    <!-- Button -->
+    <!-- Compress Button -->
     <button id="compressBtn">Compress Image</button>
-<p id="status" style="text-align:center;color:#555;"></p>
-<button id="downloadBtn" style="
-  display:none;
-  width:100%;
-  margin-top:12px;
-  background:#28a745;
-  color:#fff;
-  padding:12px;
-  border:none;
-  border-radius:6px;
-  font-size:16px;
-  font-weight:bold;
-">
-⬇ Download Image
-</button>
+
+    <!-- Status -->
+    <p id="status" style="text-align:center;"></p>
+
+    <!-- Download Button -->
+    <button id="downloadBtn" style="
+      display:none;
+      width:100%;
+      margin-top:12px;
+      background:#28a745;
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      font-size:16px;
+      font-weight:bold;
+    ">
+      Download Image
+    </button>
+
     <!-- Preview -->
     <div id="preview"></div>
   </div>
 
-  <!-- JS link -->
+  <!-- JS -->
   <script src="script.js"></script>
-<div class="app">
-
-  <header class="header">
-    <h1>Image Converter</h1>
-    <p>Convert images instantly — fast, secure & free</p>
-  </header>
-
-  <section class="tool-card">
-    <input type="file" id="imageInput">
-
-    <select>
-      <option>PNG</option>
-      <option>JPG</option>
-      <option>WEBP</option>
-    </select>
-
-    <button>Convert Image</button>
-  </section>
-
-</div>
 </body>
-</html>
