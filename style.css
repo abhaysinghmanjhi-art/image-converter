@@ -276,3 +276,34 @@ button:active {
   font-size: 15px;
   line-height: 1.6;
 }
+/* ===== FAQ FIX (TEXT VISIBILITY) ===== */
+
+.faq-section {
+  background: radial-gradient(circle at top, #0b1020, #020617);
+  padding: 50px 15px;
+  border-radius: 20px;
+}
+
+.faq-section h2 {
+  color: #ffffff;
+}
+
+.faq-item {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.faq-question {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.faq-question:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.faq-answer {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e5e7eb;
+}
