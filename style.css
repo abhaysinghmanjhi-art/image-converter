@@ -307,3 +307,28 @@ button:active {
   background: rgba(255, 255, 255, 0.05);
   color: #e5e7eb;
 }
+/* ===== FAQ CLASSIC DARK FIX (ADD AT END) ===== */
+
+.faq-section {
+  background: transparent;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  background: transparent;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.faq-answer {
+  background: transparent;
+  color: #d1d5db;
+  line-height: 1.6;
+}
